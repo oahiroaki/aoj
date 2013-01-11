@@ -1,5 +1,3 @@
-ORDERS = '+-*'
-
 SAMPLE_INPUT = """8 7 9 9
 4 4 4 4
 5 5 7 5
@@ -16,16 +14,13 @@ def add_operater(nums, memo):
         return nums
 
 def change_order(nums):
-    
-    
 
 def solve(line):
     nums = map(int, line.split())
     add_operater(nums, str(nums[0]))
 
-for line in SAMPLE_INPUT.split('\n'):
-    print line
-    solve(line)
+change_order([8, 7, 9, 9])
+
 
 # ((9 * (9 - 7)) - 8)
 # 0
