@@ -1,0 +1,100 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BORDER	0100.cpp	/^const long long BORDER = 1000000;$/;"	v
+DAYS_NUM	0027.cpp	/^const int DAYS_NUM[12] =$/;"	v
+Data	0102.cpp	/^Data::Data(int s)$/;"	f	class:Data
+Data	0102.cpp	/^class Data$/;"	c	file:
+EPS	0012.cpp	3;"	d	file:
+EPS	0016.cpp	4;"	d	file:
+EPS	0021.cpp	3;"	d	file:
+EPS	0024.cpp	3;"	d	file:
+Info	0029.cpp	/^struct Info {$/;"	s	file:
+MAX	0026.cpp	/^const int MAX = 10;$/;"	v
+PI	0016.cpp	5;"	d	file:
+a	0021.cpp	/^double a[2], b[2], c[2], d[2];$/;"	v
+add	0015.cpp	/^string add(string a, string b) {$/;"	f
+b	0021.cpp	/^double a[2], b[2], c[2], d[2];$/;"	v
+buf	0109.cpp	/^char buf[101];$/;"	v
+c	0021.cpp	/^double a[2], b[2], c[2], d[2];$/;"	v
+calc	0102.cpp	/^Data Data::calc()$/;"	f	class:Data
+check	0110.cpp	/^bool check(char n) {$/;"	f
+check_word	0017.cpp	/^bool check_word(string s) {$/;"	f
+ctoi	0015.cpp	/^int ctoi(char c) {$/;"	f
+d	0021.cpp	/^double a[2], b[2], c[2], d[2];$/;"	v
+data	0102.cpp	/^  int **data;$/;"	m	class:Data	file:
+days	0027.cpp	/^const string days[7] = {$/;"	v
+def	0026.cpp	/^const int def[12][2] = {$/;"	v
+delete_word	1101.cpp	/^string delete_word(string s, int c)$/;"	f
+drop	0026.cpp	/^void drop(int *p, int size) {$/;"	f
+excute_order	1101.cpp	/^string excute_order(string s, vector<string> order)$/;"	f
+expr	0109.cpp	/^int expr() {$/;"	f
+fact	0019.cpp	/^long long fact(int n) {$/;"	f
+fact	0109.cpp	/^int fact() {$/;"	f
+find	0029.cpp	/^string find() {$/;"	f
+hist	0029.cpp	/^  int hist;$/;"	m	struct:Info	file:
+init	0029.cpp	/^void init(string s) {$/;"	f
+init	0102.cpp	/^void Data::init(int num)$/;"	f	class:Data
+input	0102.cpp	/^void Data::input()$/;"	f	class:Data
+input_order	1101.cpp	/^vector<string> input_order()$/;"	f
+isParallel	0021.cpp	/^bool isParallel() {$/;"	f
+it	0029.cpp	/^vector<Info>::iterator it;$/;"	v
+itoc	0015.cpp	/^char itoc(int i) {$/;"	f
+length	0029.cpp	/^  int length;$/;"	m	struct:Info	file:
+main	0010.cpp	/^int main() {$/;"	f
+main	0011.cpp	/^int main() {$/;"	f
+main	0012.cpp	/^int main() {$/;"	f
+main	0013.cpp	/^int main() {$/;"	f
+main	0014.cpp	/^int main() {$/;"	f
+main	0015.cpp	/^int main() {$/;"	f
+main	0016.cpp	/^int main() {$/;"	f
+main	0017.cpp	/^int main() {$/;"	f
+main	0018.cpp	/^int main() {$/;"	f
+main	0019.cpp	/^int main() {$/;"	f
+main	0020.cpp	/^int main() {$/;"	f
+main	0021.cpp	/^int main() {$/;"	f
+main	0022.cpp	/^int main() {$/;"	f
+main	0023.cpp	/^int main() {$/;"	f
+main	0024.cpp	/^int main() {$/;"	f
+main	0025.cpp	/^int main() {$/;"	f
+main	0026.cpp	/^int main() {$/;"	f
+main	0027.cpp	/^int main() {$/;"	f
+main	0028.cpp	/^int main() {$/;"	f
+main	0029.cpp	/^int main() {$/;"	f
+main	0030.cpp	/^int main(){$/;"	f
+main	0031.cpp	/^int main(){$/;"	f
+main	0032.cpp	/^int main(){$/;"	f
+main	0033.cpp	/^int main()$/;"	f
+main	0034.cpp	/^int main()$/;"	f
+main	0036.cpp	/^int main() {$/;"	f
+main	0100.cpp	/^int main() {$/;"	f
+main	0101.cpp	/^int main()$/;"	f
+main	0102.cpp	/^int main() {$/;"	f
+main	0109.cpp	/^int main() {$/;"	f
+main	0110.cpp	/^int main() {$/;"	f
+main	0200.cpp	/^int main()$/;"	f
+main	0529.cpp	/^int main() {$/;"	f
+main	1100.cpp	/^int main()$/;"	f
+map	0026.cpp	/^int map[MAX][MAX] = {0};$/;"	v
+p	0109.cpp	/^int p;$/;"	v
+pa	0023.cpp	/^double pa[2], pb[2];$/;"	v
+pb	0023.cpp	/^double pa[2], pb[2];$/;"	v
+print	0102.cpp	/^void Data::print()$/;"	f	class:Data
+ra	0023.cpp	/^double ra, rb;$/;"	v
+radian	0016.cpp	/^double radian(int angle) {$/;"	f
+rb	0023.cpp	/^double ra, rb;$/;"	v
+rep	0036.cpp	3;"	d	file:
+replaceX	0110.cpp	/^string replaceX(string s, char n) {$/;"	f
+size	0102.cpp	/^  int size;$/;"	m	class:Data	file:
+slide	0017.cpp	/^string slide(string s) {$/;"	f
+solve	0023.cpp	/^int solve() {$/;"	f
+solve	0030.cpp	/^int solve(int n, int s, int t){$/;"	f
+solve	0033.cpp	/^bool solve(int *data)$/;"	f
+term	0109.cpp	/^int term() {$/;"	f
+upcase	0020.cpp	/^void upcase(string& s) {$/;"	f
+w	0031.cpp	/^const int w[10] = {1, 2, 4, 8, 16, 32, 64, 128, 256, 512};$/;"	v
+word	0029.cpp	/^  string word;$/;"	m	struct:Info	file:
+words	0029.cpp	/^vector<Info> words;$/;"	v
