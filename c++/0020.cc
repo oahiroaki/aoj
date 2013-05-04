@@ -4,16 +4,13 @@
 
 using namespace std;
 
-void upcase(string& s) {
-  for (int i = 0; i < s.length(); i++)
-    if (islower(s[i])) s[i] -= 32;
-  return;
-}
-
-int main() {
-  string str;
-  getline(cin, str);
-  upcase(str);
-  cout << str <<endl;
-  return 0;
+int main()
+{
+	string str;
+	getline(cin, str);
+	for (int i = 0; i < str.length(); i++) {
+		if (islower(str[i])) str[i] -= 32;
+	}
+	cout << str <<endl;
+	return 0;
 }
