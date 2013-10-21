@@ -29,7 +29,7 @@ main(int argc, char* argv[]) {
 		}
 
 		for (i = 0; i < n; i++)
-			for (j = 1; j < LIMIT; j++)
+			for (j = 0; j < LIMIT; j++)
 				if ((prices[i] + j + 1 <= LIMIT) && (sums[j]))
 					sums[prices[i] + j] = 1;
 
