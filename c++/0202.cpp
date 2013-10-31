@@ -1,51 +1,50 @@
-#include<iostream>
+#include <iostream>
+#include <cmath>
+#include <cstring>
 
 using namespace std;
+ 
+const int INF = 1<<30;
+const int MAX = 1000000;
+typedef long long ll;
+ 
+int main() {
+    bool dp[MAX+1];
+    bool prime[MAX+1];
+    int n, m;
+    memset(prime, true, sizeof(prime));
 
-const int LIMIT = 1000001;
-
-int main(){
-  bool primes[N] = {true};
-  bool sums[N] = {true};
-
-  // init primes
-  primes[0] = false;
-  primes[1] = false;
-  for (int i = 2; i < LIMIT / 2; i++) {
-    if (primes[i]) {
-      for (int j = 2 * i; j < LIMIT; j += i) {
-        primes[j] = false;
-      }
-    }
-  }
-
-input:
-  while (cin >> n >> x && n) {
-    int *prices = new int(n);
-
-    for (int i = 0; i < n; i++) {
-      cin >> prices[i];
-      sums[i] = false;
+    for(int i = 2; i < sqrt(MAX); i++) {
+        if(prime[i] == false)
+            continue;
+        for(int j = i*2; j < MAX; j += i)
+            prime[j] = false;
     }
 
-    // init sums
-    for (int i = 0; i < LIMIT; i++) {
-      if (!sums[i]) {
-        for (int j = 0; j < LIMIT; j++) {
-          sums[i + prices[j]] = false;
+    while(cin >> n >> m, n) {
+        for(int i = 0; i <= MAX; i++)
+            dp[i] = false;
+        dp[0] = true;
+
+        for(int i = 0; i < n; i++) {
+            int x;
+            cin >> x;
+            for(int t = 0; t <= m-x; t++) {
+                if(dp[t])
+                    dp[t+x] = true;
+            }
         }
-      }
-    }
 
-    delete [] prices;
-
-    for(int i = LIMIT - 1; i > 0; i--){
-      if (primes[i] && sums[i]) {
-        cout << i << endl;
-        goto input;
-      }
+        int res = -1;
+        for(int i = m; i >= 2; --i) {
+            if(dp[i] && prime[i]) {
+                res = i;
+                break;
+            }
+        }
+        if(res ==  -1)
+            cout << "NA" << endl;
+        else
+            cout << res << endl;
     }
-    cout << "NA" << endl;
-  }
-  return 0;
 }
